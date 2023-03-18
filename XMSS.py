@@ -1,4 +1,4 @@
-from words import wordlist  #4096 unique word list for mnemonic SEED retrieval..
+import wordlist  #4096 unique word list for mnemonic SEED retrieval..
 import hmac
 import hashlib
 from binascii import unhexlify, hexlify
