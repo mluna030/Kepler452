@@ -1,6 +1,6 @@
 import socket
 import json
-from Kepler452.XMSS import random_wmss, sign_mss
+from XMSS import random_wmss, sign_mss
 import cv2
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
@@ -18,8 +18,8 @@ keypair = random_wmss(4)
 
 # Set up a socket server
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server_socket.bind(('192.168.0.100', 5000))
-server_socket.listen(1)
+server_socket.bind(('0.0.0.0', 5000))
+server_socket.listen(5)
 
 print("Server is waiting for connections...")
 
