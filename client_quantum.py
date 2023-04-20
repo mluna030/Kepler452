@@ -15,7 +15,7 @@ def decrypt(cipher_text, key):
 
 # Connect to the server
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client_socket.connect(('192.168.0.1', 5000))
+client_socket.connect(('192.168.0.2', 5000))
 
 # Receive the public key, Merkle root, and Merkle path from the server
 pub_key_data = json.loads(client_socket.recv(4096).decode())
