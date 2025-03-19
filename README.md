@@ -1,4 +1,5 @@
-# Kepler452
+# Post-Quantum Embedded System for Securing Deep Space Applications 
+Kepler-452B
 
 ## Overview
 
