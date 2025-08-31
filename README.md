@@ -31,7 +31,7 @@ Originally developed for the NASA Artemis program, Kepler452 showcases how post-
 This project is supported by extensive research and documentation. Below are key papers and reports associated with Kepler452:
 
 - **[Secure Robotic Environment for NASA Artemis Program using XMSS Algorithm](docs/exec_sum.pdf)** – Executive summary detailing project goals and implementation.
-- **[Post-Quantum Cryptographic Embedded System for Securing Deep Space Applications](docs/Post_Quantum_Cryptography.pdf)** – A comprehensive research paper discussing the implementation and challenges of post-quantum security in embedded systems.
+- **[Post-Quantum Cryptographic Embedded System for Securing Deep Space Applications](docs/main.pdf)** – A comprehensive research paper discussing the implementation and challenges of post-quantum security in embedded systems.
 
 ## Technical Details
 
